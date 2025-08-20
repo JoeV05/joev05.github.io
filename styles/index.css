@@ -1,1 +1,39 @@
+body {
+    background-image: url("../images/Red_Panda.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.box {
+    background: rgba(20, 20, 20, 0.8);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 850px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+}
+
+.box img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.box ul, ol {
+    display: inline-block;
+}
+
+.list-container {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
