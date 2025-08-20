@@ -35,6 +35,12 @@
       .box ul, ol {
       	display: inline-block;
       }
+
+      .list-container {
+        display: table;
+        margin: 0 auto;
+        text-align: left;
+      ]
     </style>
   </head>
   <body>
@@ -44,16 +50,20 @@
       <p>test image</p>
       <img src="../images/Red_Panda.jpg">
       <h2>test title</h2>
-      <ul>
-        <li>test</li>
-        <li>unordered</li>
-        <li>list</li>
+      <div class="list-container">
+        <ul>
+          <li>test</li>
+          <li>unordered</li>
+          <li>list</li>
       </ul>
-      <ol>
-        <li>test</li>
-        <li>ordered</li>
-        <li>list</li>
-      </ol>
+      </div>
+      <div class="list-container">
+        <ol>
+          <li>test</li>
+          <li>ordered</li>
+          <li>list</li>
+        </ol>
+      </div>
     </div>
   </body>
 </html>
