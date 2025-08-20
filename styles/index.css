@@ -26,8 +26,19 @@ body {
     height: auto;
 }
 
-.box ul, ol {
+.box ul,
+.box ol {
     display: inline-block;
+}
+
+.box .left-text {
+    text-align: left;
+}
+
+.box .left-text ul,
+.box .left-text ol {
+    display: block;
+    margin: 0;
 }
 
 .list-container {
