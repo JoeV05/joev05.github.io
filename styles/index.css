@@ -37,7 +37,7 @@ body {
 
 .box .left-text ul,
 .box .left-text ol {
-    display: block;
+    display: block !important;
     margin: 0;
 }
 
