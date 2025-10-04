@@ -19,6 +19,15 @@ body {
     margin: 150px auto 0;
 }
 
+.invisibox {
+    background: rgba(0, 0, 0, 0);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 850px;
+    text-align: center;
+    margin: 150px auto 0;
+}
+
 
 .box img {
     object-fit: contain;
